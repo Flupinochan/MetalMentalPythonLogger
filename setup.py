@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="metalmental_logger",
-    version="0.3",
+    version="0.5",
     author="MetalMental",
     author_email="flupino@metalmental.net",
     license="MIT",
