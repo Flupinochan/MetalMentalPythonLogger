@@ -16,7 +16,9 @@ pip install metalmental-logger
 ```
 
 ## 使い方
-sample.py
+```bash
+vi sample.py
+```
 ```python
 import logging
 from metalmental_logger.logger import metalmental_logger
@@ -36,6 +38,23 @@ sample_function()
 ```
 ```bash
 python sample.py
+```
+```bash
+[prompt]$ python sample.py
+[2024-09-11 19:48:53.889 JST] [DEBUG] [9行目] [関数名: sample_function] これはデバッグメッセージです
+[2024-09-11 19:48:53.889 JST] [INFO] [10行目] [関数名: sample_function] これは情報メッセージです
+[2024-09-11 19:48:53.889 JST] [WARNING] [11行目] [関数名: sample_function] これは警告メッセージです
+[2024-09-11 19:48:53.889 JST] [ERROR] [12行目] [関数名: sample_function] これはエラーメッセージです
+[2024-09-11 19:48:53.889 JST] [CRITICAL] [13行目] [関数名: sample_function] これは重大なエラーメッセージです
+[prompt]$
+[prompt]$
+[prompt]$ cat logs/2024-09-11.log
+[2024-09-11 19:48:53.889 JST] [DEBUG] [9行目] [関数名: sample_function] これはデバッグメッセージです
+[2024-09-11 19:48:53.889 JST] [INFO] [10行目] [関数名: sample_function] これは情報メッセージです
+[2024-09-11 19:48:53.889 JST] [WARNING] [11行目] [関数名: sample_function] これは警告メッセージです
+[2024-09-11 19:48:53.889 JST] [ERROR] [12行目] [関数名: sample_function] これはエラーメッセージです
+[2024-09-11 19:48:53.889 JST] [CRITICAL] [13行目] [関数名: sample_function] これは重大なエラーメッセージです
+[prompt]$
 ```
 
 ## ライセンス
