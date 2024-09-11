@@ -1,6 +1,7 @@
 # MetalMental Logger
 
-MetalMental Loggerは、ログレベルを指定するだけで、標準出力およびファイルにログを出力するシンプルなロガーライブラリです
+MetalMental Loggerは、ログレベルを指定するだけで、標準出力およびファイルにログを出力するシンプルなロガーライブラリです<br>
+https://pypi.org/project/metalmental-logger/
 
 ## 特徴
 
@@ -18,7 +19,7 @@ pip install metalmental-logger
 sample.py
 ```python
 import logging
-from metalmental_logger import metalmental_logger
+from metalmental_logger.logger import metalmental_logger
 
 # ロガーのインスタンスを作成
 logger = metalmental_logger(log_level=logging.DEBUG)
