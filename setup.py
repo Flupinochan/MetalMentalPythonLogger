@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="metalmental_logger",
-    version="0.7",
+    version="0.7.1",
     author="MetalMental",
     author_email="flupino@metalmental.net",
     license="MIT",
@@ -22,6 +22,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),
+    description="A simple logger library that outputs logs to both standard output and a file by specifying the log level",
     long_description=long_description,
     long_description_content_type="text/markdown",
 )
